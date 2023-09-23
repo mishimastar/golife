@@ -31,7 +31,7 @@ func main() {
 	if err != nil {
 		return
 	}
-	pg := GOL{w: width, h: height}
+	pg := GOL{}
 	pg.Init(width, height)
 	pg.draw()
 	pg.Play()
