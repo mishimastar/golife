@@ -17,7 +17,7 @@ const bornNeigh = 3
 
 const delay = 50 * time.Millisecond
 
-const initSurvivePercent = 15
+const initSurvivePercent = 25
 
 func main() {
 	if !term.IsTerminal(0) {
